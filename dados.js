@@ -1,7 +1,7 @@
 // Exemplo de obejto
 console.log('Isso é um objeto e suas propriedades')
 console.log({
-  name: "Carlos",
+  name: "Carlinhos",
   idade: 26,
   andar: function(){
     console.log('andar')
