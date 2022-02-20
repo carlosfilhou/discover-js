@@ -3,7 +3,7 @@ console.log('bem vindos ao starter')
 console.log('eu sou carlos augusto')
 
 // declarando
-var name
+let name
 
 // assignment or atribuir valor
 name = 'Carlos'
@@ -11,3 +11,52 @@ name = 'Carlos'
 // que tipo de dado foi colocado na variável
 console.log(typeof name)
 
+let age = 26
+let isHuman = true
+
+// declaração conjunta
+let altura, isMonster, weight
+
+altura = 1.8
+isMonster = false
+weight = 76
+
+// multiplos argumentos na função
+console.log(name, age, isHuman, isMonster, altura)
+
+// escrita de texto + variáveis, concatenando valores
+console.log('o ' + name + ' tem ' + age + ' anos')
+
+// interpolando valores com template literals or template strings
+console.log(`o ${name} tem ${age} anos.`)
+
+// object
+const person = {
+  name: 'joão',
+  age: 25,
+  weight: 75,
+  isBeautiful: false
+}
+
+// imprimir somente uma propriedade do objeto
+console.log(person.weight)
+console.log(`${person.name} tem ${person.weight} e ele está magro`)
+
+// array
+const animals = [
+  'lion',
+  'monkey',
+  'dog',
+  'bear',
+  10,
+  {
+    name: 'rafinha',
+    age: 27,
+    isHuman: true
+  }
+]
+
+// acessar valores dentro de um array
+console.log(animals[1])
+console.log(animals[5])
+console.log(animals[5].isHuman)
