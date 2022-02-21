@@ -1,14 +1,10 @@
-// criar um aplicativo de frases motivacionais
+// function scope
+let subject = 'laranja'
 
-// declaração da função
-function createPhrases() {
-  console.log('Estudar é muito bom')
-  console.log('Paciência e persistência')
-  console.log('Revisão é mãe do aprendizado')
+function createThink(subject){
+  subject = 'maça'
+  return subject
 }
 
-// chamar a função
-createPhrases()
-createPhrases()
-
-console.log('Fim do Código')
+console.log(createThink(subject))
+console.log(subject)
