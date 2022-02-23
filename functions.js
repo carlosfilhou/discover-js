@@ -8,3 +8,5 @@ function createThink(subject){
 
 console.log(createThink(subject))
 console.log(subject)
+
+s
