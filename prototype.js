@@ -16,3 +16,17 @@ console.log(Number(string))
 let number = 123
 console.log(String(number))
 
+//contar quantos caracteres tem uma palavra e quantos digitos tem em um número
+let word = "paralelepipedo"
+console.log(word.length)
+
+let number1 = 1234567
+console.log(String(number1).length)
+
+//transformar um número quebrado com 2 casas decimais
+let number2 = 345.4420349204
+console.log(number2.toFixed(2))
+
+//trocar o ponto por vígula nas casas decimais, LEMBRANDO que um objeto pode ter diversas funções atreladas uma a outra
+let number3 = 444.55555
+console.log(number3.toFixed(2).replace(".", ","))
