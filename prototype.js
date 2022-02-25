@@ -30,3 +30,19 @@ console.log(number2.toFixed(2))
 //trocar o ponto por vígula nas casas decimais, LEMBRANDO que um objeto pode ter diversas funções atreladas uma a outra
 let number3 = 444.55555
 console.log(number3.toFixed(2).replace(".", ","))
+
+// Transforme letras minúsculas em maiúsculas. Faça o contrario também
+let word1 = "programar é muito bacana"
+console.log(word1.toUpperCase())
+
+let word2 = "programar é muito legal"
+console.log(word2.toLowerCase())
+
+//separe um texto que contem espaços, em um novo array onde cada texto é uma posição do array. Depois disso, transforme o array em um texto e onde eram espaços, coloque _ "underscore"
+let phrase = "fui ao centro de manhã"
+//transformando stringo para array através do .split
+let myArray = phrase.split(" ")
+//transformando o array de volta para string através do .join
+let phraseWithUnderScore = myArray.join("_")
+
+console.log(phraseWithUnderScore)
