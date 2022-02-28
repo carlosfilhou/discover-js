@@ -42,7 +42,7 @@ console.log(word2.toLowerCase())
 let phrase = "fui ao centro de manhã"
 //transformando stringo para array através do .split
 let myArray = phrase.split(" ")
-//transformando o array de volta para string através do .join
+//transformando o array de volta para string através do .join.
 let phraseWithUnderScore = myArray.join("_")
 
 console.log(phraseWithUnderScore)
