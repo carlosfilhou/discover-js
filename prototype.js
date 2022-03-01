@@ -50,5 +50,3 @@ console.log(phraseWithUnderScore)
 //verificar se o texto contém uma palavra específica
 let phrase1 = "oi, eu sou o carlos"
 console.log(phrase1.includes("sou"))
-
-

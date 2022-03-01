@@ -60,3 +60,20 @@ const animals = [
 console.log(animals[1])
 console.log(animals[5])
 console.log(animals[5].isHuman)
+
+//criar array com construtor
+let myArrayConstructor = new Array('a', 'b', 'c')
+console.log(myArrayConstructor)
+
+//array normal só para comparação
+let myArray = ['a', 'b', 'c']
+console.log(myArray)
+
+//contar quantos elementos tem um array
+let myArray1 = ['a', {type: 'array'}, function() {return 'olá'}]
+console.log(myArray1)
+
+//transformar uma cadeia de caracteres em elementos de um array
+let word = 'manipulação'
+console.log(Array.from(word))
+
