@@ -101,4 +101,27 @@ let index = techs.indexOf('js')
 
 console.log(index)
 
+// a expressão new serve para criar um novo objeto
+let name5 = new String('carlos')
+let age5 = new Number(27)
 
+console.log(name5, age5)
+
+//operador do tipo unário
+console.log(++age5)
+
+//consultar tipo de dado
+console.log(typeof 'carlos')
+
+//deletar propriedade de um objeto específico
+const person5 = {
+  name: 'joaosinho',
+  age: 33,
+}
+delete person5.age //aqui está deletando a propriedade idade
+
+console.log(person5)
+
+//Operador que agrupar expressões é o (parenteses), o que estiver dentro dos parenteses será resolvido primeiro
+let total = 2 * (3 - 1)
+console.log(total)
