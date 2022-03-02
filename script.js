@@ -77,3 +77,28 @@ console.log(myArray1)
 let word = 'manipulação'
 console.log(Array.from(word))
 
+let techs = ['html', 'css', 'js']
+
+//adicionar um item no fim
+techs.push('nodejs')
+console.log(techs)
+//adicionar um item no começo
+techs.unshift('sql')
+console.log(techs)
+//remover do fim
+techs.pop()
+console.log(techs)
+// remover do começo
+techs.shift()
+console.log(techs)
+//pegar somente alguns elementos do array (ele exlui as casas para trás da que você escolher)
+console.log(techs.slice(2))
+//remover 1 ou mais itens em quakquer posição do array (no primeiro argumento eu falo qual index eu quero tirar, e no segundo quantos elementos eu quero tirar pra frente)
+techs.splice(1, 1)
+console.log(techs)
+//encontrar a posição de um elemento no array
+let index = techs.indexOf('js')
+
+console.log(index)
+
+
