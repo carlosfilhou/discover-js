@@ -122,6 +122,6 @@ delete person5.age //aqui está deletando a propriedade idade
 
 console.log(person5)
 
-//Operador que agrupar expressões é o (parenteses), o que estiver dentro dos parenteses será resolvido primeiro
+//Operador que agrupar expressões é o (parênteses), o que estiver dentro dos parenteses será resolvido primeiro
 let total = 2 * (3 - 1)
 console.log(total)
