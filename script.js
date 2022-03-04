@@ -125,3 +125,10 @@ console.log(person5)
 //Operador que agrupar expressões é o (parênteses), o que estiver dentro dos parenteses será resolvido primeiro
 let total = 2 * (3 - 1)
 console.log(total)
+
+// === estritamente igual a.. (compara também o tipo de dado)
+let one = 1
+let two = 2
+
+console.log(one === 1)
+console.log(two !== 2)
