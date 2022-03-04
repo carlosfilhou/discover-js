@@ -132,3 +132,35 @@ let two = 2
 
 console.log(one === 1)
 console.log(two !== 2)
+
+//operadores de atribuição
+let x
+
+//atribuir ao x
+x = 1
+console.log(x)
+
+//adicionar ao x
+x += 3
+console.log(x)
+
+//subtrair do x
+x -= 1
+console.log(x)
+
+//multiplicar ao x
+x *= 3
+console.log(x)
+
+//dividir o x
+x /= 2
+console.log(x)
+
+//resto da divisão (ou seja, irá pegar o que estiver depois da vírgula)
+x %= 2
+console.log(x)
+
+//exponencial
+x **= 2
+console.log(x)
+
