@@ -164,3 +164,16 @@ console.log(x)
 x **= 2
 console.log(x)
 
+//Operadore ternário
+let ageCarlos = 18
+
+//repare que o sinal de interrogação representa o "então", e os dois pontos representa o "senão"
+const canDrive = ageCarlos >= 18 ? 'can drive' : "can't drive"
+console.log(canDrive)
+
+//segundo exemplo de operador ternário
+let bread = true
+let cheese = false
+
+const NiceBreakFast = bread && cheese ? 'nice coffee' : 'bad coffee'
+console.log(NiceBreakFast)
