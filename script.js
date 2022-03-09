@@ -179,7 +179,8 @@ const NiceBreakFast = bread && cheese ? 'nice coffee' : 'bad coffee'
 console.log(NiceBreakFast)
 
 //FALSY: quando um valor é considerado false em contextgos onde um booleano é obrigatório ( condicionais e loops )
-// false, 0, -0, "", null, undefined, NaN
+// false, 0, -0, "", null, undefined, NaN.
 
 //TRUTHY: qaundo um valor é considerado true em contextos onde um booleano é obrigatório (condicionais e loops)
 //tru, {}, [], 1, 3.23, "0", "false", -1, Infinity, -Infinity
+
