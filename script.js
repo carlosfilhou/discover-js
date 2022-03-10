@@ -182,5 +182,5 @@ console.log(NiceBreakFast)
 // false, 0, -0, "", null, undefined, NaN.
 
 //TRUTHY: qaundo um valor é considerado true em contextos onde um booleano é obrigatório (condicionais e loops)
-//tru, {}, [], 1, 3.23, "0", "false", -1, Infinity, -Infinity
+//tru, {}, [], 1, 3.23, "0", "false", -1, Infinity, -Infinityy
 
