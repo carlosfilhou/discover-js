@@ -185,7 +185,7 @@ console.log(NiceBreakFast)
 //tru, {}, [], 1, 3.23, "0", "false", -1, Infinity, -Infinityy
 
 //Control flow
-let temperature = 36
+let temperature = 33
 
 if (temperature >= 37){
   console.log('Indivíduo com febre')
