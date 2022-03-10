@@ -184,3 +184,16 @@ console.log(NiceBreakFast)
 //TRUTHY: qaundo um valor é considerado true em contextos onde um booleano é obrigatório (condicionais e loops)
 //tru, {}, [], 1, 3.23, "0", "false", -1, Infinity, -Infinityy
 
+//Control flow
+let temperature = 36
+
+if (temperature >= 37){
+  console.log('Indivíduo com febre')
+}
+else if (temperature <= 35){
+  console.log('Indivíduo com hipotermia')
+}
+else{
+  console.log('Indivíduo saudável')
+}
+
